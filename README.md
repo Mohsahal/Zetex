@@ -1,6 +1,6 @@
-# INFOB Digital Solutions Portfolio
+# Zetex Digital Solutions Portfolio
 
-A modern, high-performance portfolio website built for a digital agency using React, Tailwind CSS, and Framer Motion.
+A modern, high-performance portfolio website built for Zetex Digital Solutions using React, Tailwind CSS, and Framer Motion.
 
 ## Features
 - **3D Animated Hero**: Custom Framer Motion powered 3D geometric parallax hero section.
