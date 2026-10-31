@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+﻿/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -21,12 +21,12 @@ export default {
         "surface-secondary": "#FAF7F2",
         "primary": "#631B27",
         "on-primary": "#F5F1EA",
-        "secondary": "#6A6258",
-        "on-secondary": "#141414",
+        "secondary": "#7E2535",
+        "on-secondary": "#631B27",
         "outline": "#DFD7CA",
         "outline-variant": "#ECE5D9",
-        "body-text": "#4A433B",
-        "on-background": "#141414",
+        "body-text": "#631B27",
+        "on-background": "#631B27",
         "surface-tint": "#631B27",
         "surface-dim": "#EDE6DC",
         "accent": "#631B27",
@@ -40,8 +40,8 @@ export default {
         "bone-light": "#FAF7F2",
         "bone-muted": "#EDE6DC",
         "bone-taupe": "#8C8276",
-        "carbon": "#141414",
-        "carbon-soft": "#22201E",
+        "carbon": "#430E18",
+        "carbon-soft": "#52141F",
         "error": "#BA1A1A",
       },
       borderRadius: {
@@ -54,7 +54,7 @@ export default {
         "full": "9999px"
       },
       boxShadow: {
-        "ambient": "0 8px 30px rgba(0,0,0,0.04)"
+        "ambient": "0 8px 30px rgba(99,27,39,0.06)"
       },
       spacing: {
         "unit": "8px",

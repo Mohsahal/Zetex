@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+﻿import React, { useState } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { AnimatePresence } from "framer-motion";
@@ -25,7 +25,7 @@ export default function App() {
         )}
       </AnimatePresence>
 
-      <div className="min-h-screen flex flex-col bg-[#F5F1EA] text-[#141414] selection:bg-[#631B27] selection:text-[#F5F1EA] w-full relative">
+      <div className="min-h-screen flex flex-col bg-[#F5F1EA] text-[#631B27] selection:bg-[#631B27] selection:text-[#F5F1EA] w-full relative">
         <ScrollToTop />
         <Navbar />
         <WhatsAppFloat />
