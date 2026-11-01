@@ -2,14 +2,14 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 
 export default function SEO({ 
-  title = "Zetex - Digital Solutions", 
+  title = "Zetex — Digital Solutions", 
   description = "Software, AI and digital solutions designed to turn ambitious ideas into powerful products.", 
   keywords = "web development, AI, mobile apps, digital agency, custom software, automation", 
   image = "/og-image.jpg", 
   url = "https://zetex.studio",
   type = "website"
 }) {
-  const fullTitle = title === "Zetex - Digital Solutions" ? title : `${title} | Zetex - Digital Solutions`;
+  const fullTitle = title === "Zetex — Digital Solutions" ? title : `${title} | Zetex — Digital Solutions`;
 
   return (
     <Helmet>

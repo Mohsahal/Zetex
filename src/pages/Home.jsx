@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="flex-grow">
       <SEO 
-        title="Zetex - Digital Solutions" 
+        title="Zetex — Digital Solutions" 
         description="Software, AI and digital solutions designed to turn ambitious ideas into powerful products. We build digital experiences that move businesses forward." 
       />
       {/* 1. Hero Section */}
@@ -27,6 +27,7 @@ export default function Home() {
       {/* 4. Methodology & Engineering Process */}
       <ProcessSection />
 
+
       {/* 5. About & Core Principles */}
       <WhyZetex />
 
@@ -35,3 +36,5 @@ export default function Home() {
     </main>
   );
 }
+
+
